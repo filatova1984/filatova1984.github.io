@@ -1,0 +1,56 @@
+body {
+  background: #c63939;
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+}
+#app {
+  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.main-name {
+  font-size: 30px;
+}
+button {
+  background: none;
+  outline: none;
+      border: none;
+      color: white;
+      
+}
+#break-label {
+  padding-right: 15px;
+} 
+#session-label {
+padding-right: 15px;
+}
+.demo {
+  display: inline-block;
+}
+
+.timerCircle {
+  position: relative;
+  left: 80px;
+  width: 150px;
+   height: 150px;
+  border: 3px solid white;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#timer-label {
+  padding-top: 15px;
+  
+}
+#time-left {
+ padding-top: 10px;
+  font-size: 35px;
+}
+.lengthControl {
+  display: flex;
+  justify-content: space-between;
+}
