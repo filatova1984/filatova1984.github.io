@@ -44,15 +44,12 @@ background: linear-gradient(to bottom,#437fc7 0%, #6daffe 40%, #f1f1f1 60%, #f1f
  
 }
 #welcome-section h1 {
-  font-size: 1.5em;
+  font-size: 3em;
  text-align: center;
   color: #f1f1f1;
 
  }
 
-.flex-item {
-padding: 1rem;
-}
 #projects {
   font-size: 1.1rem;
   display: flex;
@@ -98,24 +95,12 @@ padding: 1rem;
      padding: auto;
   margin-bottom: 0.5rem;
   }
-  #welcome-section {
-    padding: 4rem 1rem;
-  }
-  .flex-item {
-    margin-left: 10%;
-    padding: 1rem;
-  }
  
 }
 
 .image {
 width: 100%;
   height: 100%;
-}
-.desc {
-  padding: 0.5rem;
-  text-align: center;
-  color: #d4d4dc;
 }
 
 #contact-section {
