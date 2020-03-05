@@ -39,7 +39,7 @@ body {
   align-items: center;
     flex-direction: column;
   justify-content: center;
-background: linear-gradient(to bottom,#437fc7 0%, #6daffe 40%, #f1f1f1 60%, #f1f1f1 100%);
+background: linear-gradient(to bottom,#437fc7 0%, #6daffe 50%, #f1f1f1 70%, #f1f1f1 100%);
  color: #393f4d;
  
 }
@@ -49,6 +49,33 @@ background: linear-gradient(to bottom,#437fc7 0%, #6daffe 40%, #f1f1f1 60%, #f1f
   color: #f1f1f1;
 
  }
+
+#about {
+  height: 100%;
+  padding: 4rem 1rem;
+}
+#about h2 {
+  border-bottom : 0.1rem solid white;
+  padding-bottom: 2rem;
+   margin: 0 auto 2rem auto;
+}
+.button {
+  background-color: #437fc7  ;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin:  2px;
+  cursor: pointer;
+}
+#about a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 #projects {
   font-size: 1.1rem;
